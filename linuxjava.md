@@ -15,3 +15,4 @@
 ```
 [n12345678@munro ceng212]$ java simple
 ```
+6. Consider installing XMing.

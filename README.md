@@ -27,15 +27,15 @@ persists - ask for a ticket number and let me know what it is.
 
 ### Getting started with NetBeans
 
-1. Start NetBeans:
+1. Start NetBeans:  
 ![01startmenu](https://raw.githubusercontent.com/six0four/ceng212/master/images/01startmenu.jpg)  
-2. Create a new project:
+2. Create a new project:  
 ![01newproject](https://raw.githubusercontent.com/six0four/ceng212/master/images/01newproject.jpg)  
-3. Select the type of project:
+3. Select the type of project:  
 ![01javawithant](https://raw.githubusercontent.com/six0four/ceng212/master/images/01javawithant.jpg)  
-4. Select a project name and location (it will likely end up between 100 kB and 200 kB in size).
+4. Select a project name and location (it will likely end up between 100 kB and 200 kB in size).  
 ![01namelocation](https://raw.githubusercontent.com/six0four/ceng212/master/images/01namelocation.jpg)  
-5. Add a print statement and run the program:
+5. Add a print statement and run the program:  
 ![01addprintrun](https://raw.githubusercontent.com/six0four/ceng212/master/images/01addprintrun.jpg)  
 ![01buildsuccessful](https://raw.githubusercontent.com/six0four/ceng212/master/images/01buildsuccessful.jpg)   
 
