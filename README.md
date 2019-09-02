@@ -4,16 +4,16 @@ CENG 212
 Table of Contents
 -----------------
 
-1.  [Lab 01 Session](#lab-01-session)
+1.  [Week 01 Lab Sessions](#week-01-lab-sessions)
 
-2.  [Lab 02 Session](#lab-02-session)
+2.  [Week 02 Lab Sessions](#week-02-lab-sessions)
 
-3.  [Lab 03 Session](#lab-03-session)
+3.  [Week 03 Lab Sessions](#week-03-lab-sessions)
 
-4.  [Lab 04 Session](#lab-04-session)
+4.  [Week 04 Lab Sessions](#week-04-lab-sessions)
 
-Lab 01 Session
---------------
+Week 01 Lab Sessions
+--------------------
 
 ### Reporting an Academic Computer Fault
 
@@ -65,7 +65,7 @@ persists - ask for a ticket number and let me know what it is.
 
 6. Complete the [handout](https://raw.githubusercontent.com/six0four/ceng212/master/labs/ceng212lab01.docx).
 
-Lab 02 Session
---------------
+Week 02 Lab Sessions
+--------------------
 
 1. Start netbeans and complete the handout.
