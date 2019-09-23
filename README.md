@@ -88,15 +88,15 @@ public static double seriesSum(){
    return -1;}
 public static int getUppercaseCount(String s){
    return -1;}
-```
+```  
 ![04methodsadded](https://raw.githubusercontent.com/six0four/ceng212/master/images/04methodsadded.jpg) 
-4. Right click on FirstnameLastneame_Arrays.java and Select Tools->Create/Update Tests.
+4. Right click on FirstnameLastneame_Arrays.java and Select Tools->Create/Update Tests.  
 ![04createupdatetests](https://raw.githubusercontent.com/six0four/ceng212/master/images/04createupdatetests.jpg)  
-5. Accept the defaults by clicking OK:
+5. Accept the defaults by clicking OK:  
 ![04testdefaults](https://raw.githubusercontent.com/six0four/ceng212/master/images/04testdefaults.jpg)  
-6. Right click on Test Libraries and select Add JAR/Folder...
+6. Right click on Test Libraries and select Add JAR/Folder...  
 ![04addjar](https://raw.githubusercontent.com/six0four/ceng212/master/images/04addjar.jpg)  
-7. Navigate to C:\Program Files\NetBeans 11.0\platform\modules\ext\ and use Ctrl to select both hamcrest-core-1.3.jar and junit-4.12.jar:
+7. Navigate to C:\Program Files\NetBeans 11.0\platform\modules\ext\ and use Ctrl to select both hamcrest-core-1.3.jar and junit-4.12.jar:  
 ![04junitham](https://raw.githubusercontent.com/six0four/ceng212/master/images/04junitham.jpg)  
 8. Replace the following in FirstnameLastneame_ArraysTest.java
 ```
@@ -112,7 +112,7 @@ with
 ```
 import org.junit.Test;
 import static org.junit.Assert.*;
-```
+```  
 ![04junitfour](https://raw.githubusercontent.com/six0four/ceng212/master/images/04junitfour.jpg)  
 9. Remove
 ```
@@ -131,9 +131,9 @@ import static org.junit.Assert.*;
     @AfterEach
     public void tearDown() {
     }
-```
+```  
 ![04beforeafter](https://raw.githubusercontent.com/six0four/ceng212/master/images/04beforeafter.jpg)  
-10. Test the project from Run -> Test Project (FirstnameLastname_Arrays)  Alt+F6
-![04testproject](https://raw.githubusercontent.com/six0four/ceng212/master/images/04testproject.jpg)  
+10. Test the project from Run -> Test Project (FirstnameLastname_Arrays)  Alt+F6  
+![04testproject](https://raw.githubusercontent.com/six0four/ceng212/master/images/04testproject.jpg)    
 ![04testfailed](https://raw.githubusercontent.com/six0four/ceng212/master/images/04testfailed.jpg)  
 11. Complete the coding and submission as described in the handout.
