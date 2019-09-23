@@ -68,18 +68,19 @@ persists - ask for a ticket number and let me know what it is.
 Week 02 Lab Sessions
 --------------------
 
-1. Start netbeans and complete the handout.
+1. Start NetBeans and complete the handout.
 
 Week 03 Lab Sessions
 --------------------
 
-1. Start netbeans and complete the handout.
+1. Start NetBeans and complete the handout.
 
 Week 04 Lab Sessions
 --------------------
 
-1. Start netbeans and and create a new project as per lab 01 except you should name it FirstnameLastneame_Arrays.
-2. Add the methods:
+1. Note that NetBeans may be available in this [list of labs](https://github.com/six0four/ceng212/blob/master/netbeans.txt).
+2. Start NetBeans and create a new project as per lab 01. Exception: you should name it FirstnameLastname_Arrays and save it in the folder H:\ceng212\lab04\.
+3. Add the methods:
 ```
 public static double mean (double [ ] x){
    return -1;}
@@ -88,10 +89,16 @@ public static double seriesSum(){
 public static int getUppercaseCount(String s){
    return -1;}
 ```
-3. Right click on FirstnameLastneame_Arrays.java and Select Tools->Create/Update Tests.
+![04methodsadded](https://raw.githubusercontent.com/six0four/ceng212/master/images/04methodsadded.jpg) 
+4. Right click on FirstnameLastneame_Arrays.java and Select Tools->Create/Update Tests.
 ![04createupdatetests](https://raw.githubusercontent.com/six0four/ceng212/master/images/04createupdatetests.jpg)  
-4. Accept the defaults by clicking OK:
-5. FirstnameLastneame_ArraysTest.java Replace
+5. Accept the defaults by clicking OK:
+![04testdefaults](https://raw.githubusercontent.com/six0four/ceng212/master/images/04testdefaults.jpg)  
+6. Right click on Test Libraries and select Add JAR/Folder...
+![04addjar](https://raw.githubusercontent.com/six0four/ceng212/master/images/04addjar.jpg)  
+7. Navigate to C:\Program Files\NetBeans 11.0\platform\modules\ext\ and use Ctrl to select both hamcrest-core-1.3.jar and junit-4.12.jar:
+![04junitham](https://raw.githubusercontent.com/six0four/ceng212/master/images/04junitham.jpg)  
+8. Replace the following in FirstnameLastneame_ArraysTest.java
 ```
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.AfterAll;
@@ -106,7 +113,8 @@ with
 import org.junit.Test;
 import static org.junit.Assert.*;
 ```
-6. Remove
+![04junitfour](https://raw.githubusercontent.com/six0four/ceng212/master/images/04junitfour.jpg)  
+9. Remove
 ```
 	@BeforeAll
     public void setUpClass() {
@@ -124,7 +132,8 @@ import static org.junit.Assert.*;
     public void tearDown() {
     }
 ```
-7. Right click on Testing Libraries and choose add JAR:
-Navigate to C:\Program Files\NetBeans 11.0\platform\modules\ext\ and
-Use Ctrl to select both junit-4.12.jar and hamcrest.jar
-3. Complete the coding and submission as described in the handout.
+![04beforeafter](https://raw.githubusercontent.com/six0four/ceng212/master/images/04beforeafter.jpg)  
+10. Test the project from Run -> Test Project (FirstnameLastname_Arrays)  Alt+F6
+![04testproject](https://raw.githubusercontent.com/six0four/ceng212/master/images/04testproject.jpg)  
+![04testfailed](https://raw.githubusercontent.com/six0four/ceng212/master/images/04testfailed.jpg)  
+11. Complete the coding and submission as described in the handout.
