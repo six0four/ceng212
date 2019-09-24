@@ -89,7 +89,7 @@ public static double seriesSum(){
 public static int getUppercaseCount(String s){
    return -1;}
 ```  
-SAVE YOUR PROJECT
+SAVE YOUR PROJECT   
 ![04methodsadded](https://raw.githubusercontent.com/six0four/ceng212/master/images/04methodsadded.jpg) 
 4. Right click on FirstnameLastneame_Arrays.java and Select Tools->Create/Update Tests.  
 ![04createupdatetests](https://raw.githubusercontent.com/six0four/ceng212/master/images/04createupdatetests.jpg)  
